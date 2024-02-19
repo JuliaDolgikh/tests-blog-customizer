@@ -1,6 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  retries: 3,
   testDir: './__tests__',
   outputDir: './tmp/artifacts',
   use: {
