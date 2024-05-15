@@ -5,6 +5,7 @@ npm i -g wait-port@1.0.4 > /dev/null
 npm ci > /dev/null
 npm ci --prefix /tmp/tests-blog-customizer > /dev/null
 npx playwright install > /dev/null
+npx playwright install-deps > /dev/null
 
 echo "СБОРКА ПРОЕКТА"
 npm run build
